@@ -1,0 +1,92 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #D8B8FF; /* Soft lavender purple */
+  color: #333; /* Dark text for contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container */
+.app {
+  background-color: #fff; /* White background for the app container */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  color: #6A0DAD; /* Purple color for the title */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Task input section */
+.task-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 75%;
+  border: 2px solid #6A0DAD; /* Purple border for input */
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.task-input input:focus {
+  border-color: #4B0082; /* Darker purple on focus */
+}
+
+.task-input button {
+  padding: 10px 20px;
+  background-color: #4B0082; /* Dark purple */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #6A0DAD; /* Lighter purple on hover */
+}
+
+/* Task list styles */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #fff; /* White background for tasks */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li button {
+  background-color: #6A0DAD;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.task-list li button:hover {
+  background-color: #4B0082; /* Darker purple on button hover */
+}
